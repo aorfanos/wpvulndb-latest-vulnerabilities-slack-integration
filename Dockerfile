@@ -1,6 +1,7 @@
 FROM python:3.7-alpine 
 
-ENV 
+ENV WPVULNDB_API_TOKEN yourtokengoeshere
+ENV SLACK_WEBHOOK_URL yourslackwebhookURL 
 
 COPY . /opt/wpvulndb-api
 
